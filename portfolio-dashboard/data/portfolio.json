@@ -1,0 +1,38 @@
+{
+  "base_currency": "EUR",
+  "risk_free_rate": 0.025,
+  "benchmark": "^GSPC",
+  "profile": {
+    "idade": 21,
+    "horizonte": "15+ anos",
+    "risco": "Ultra-agressivo",
+    "broker": "Revolut Metal (PT)",
+    "contribuicao_mensal": 400,
+    "frequencia_dca": "3 semanas"
+  },
+  "positions": [
+    {"ticker": "EXUS.L", "name": "iShares MSCI ACWI ex-US", "qty": 9.3521, "avg_price": 36.11, "class": "ETF", "sector": "Mundo ex-USA", "currency": "EUR", "quote_currency": "USD", "stop": null, "take_profit": null},
+    {"ticker": "VUAA.L", "name": "Vanguard S&P 500 UCITS", "qty": 2.0770, "avg_price": 111.27, "class": "ETF", "sector": "EUA Large Cap", "currency": "EUR", "quote_currency": "USD", "stop": null, "take_profit": null},
+    {"ticker": "MSFT", "name": "Microsoft", "qty": 0.3237, "avg_price": 389.98, "class": "Core", "sector": "Tech", "currency": "USD", "stop": 320.00, "take_profit": 580.00},
+    {"ticker": "NVDA", "name": "NVIDIA", "qty": 0.8045, "avg_price": 181.73, "class": "Core", "sector": "Semis", "currency": "USD", "stop": 150.00, "take_profit": 280.00},
+    {"ticker": "AMZN", "name": "Amazon", "qty": 0.3492, "avg_price": 210.47, "class": "Core", "sector": "Consumer/Cloud", "currency": "USD", "stop": 180.00, "take_profit": 320.00},
+    {"ticker": "BLK", "name": "BlackRock", "qty": 0.0584, "avg_price": 964.60, "class": "Core", "sector": "Financials", "currency": "USD", "stop": 820.00, "take_profit": 1350.00},
+    {"ticker": "TSM", "name": "TSMC ADR", "qty": 0.1390, "avg_price": 355.99, "class": "Core", "sector": "Semis", "currency": "USD", "stop": 290.00, "take_profit": 490.00},
+    {"ticker": "ASML", "name": "ASML Holding", "qty": 0.0314, "avg_price": 1390.28, "class": "Core", "sector": "Semis", "currency": "USD", "stop": 1050.00, "take_profit": 1750.00},
+    {"ticker": "ISRG", "name": "Intuitive Surgical", "qty": 0.1027, "avg_price": 485.01, "class": "Core", "sector": "MedTech", "currency": "USD", "stop": 400.00, "take_profit": 620.00},
+    {"ticker": "GOOGL", "name": "Alphabet A", "qty": 0.1155, "avg_price": 303.16, "class": "Core", "sector": "Tech", "currency": "USD", "stop": 260.00, "take_profit": 450.00},
+    {"ticker": "V", "name": "Visa", "qty": 0.2731, "avg_price": 314.12, "class": "Core", "sector": "Financials", "currency": "USD", "stop": 270.00, "take_profit": 400.00},
+    {"ticker": "COST", "name": "Costco", "qty": 0.0228, "avg_price": 999.63, "class": "Core", "sector": "Consumer", "currency": "USD", "stop": 900.00, "take_profit": 1100.00},
+    {"ticker": "VST", "name": "Vistra Energy", "qty": 0.5379, "avg_price": 162.67, "class": "Tática", "sector": "Utilities/AI", "currency": "USD", "stop": 125.00, "take_profit": 210.00},
+    {"ticker": "CRWD", "name": "CrowdStrike", "qty": 0.1116, "avg_price": 383.52, "class": "Tática", "sector": "Cyber", "currency": "USD", "stop": 380.00, "take_profit": 530.00},
+    {"ticker": "NU", "name": "Nu Holdings", "qty": 2.7330, "avg_price": 14.57, "class": "Tática", "sector": "Financials EM", "currency": "USD", "stop": 12.00, "take_profit": 20.00}
+  ],
+  "watchlist": [
+    {"ticker": "MELI", "name": "Mercado Libre", "currency": "USD", "entry_lo": 1750.00, "entry_hi": 1880.00, "stop": 1650.00, "tp1": 2250.00, "tp2": 2600.00, "conviction": "Alta", "notes": "LatAm e-commerce + fintech"},
+    {"ticker": "PANW", "name": "Palo Alto Networks", "currency": "USD", "entry_lo": 165.00, "entry_hi": 170.00, "stop": 150.00, "tp1": 195.00, "tp2": 210.00, "conviction": "Alta", "notes": "Cyber líder"},
+    {"ticker": "PLTR", "name": "Palantir Technologies", "currency": "USD", "entry_lo": 135.00, "entry_hi": 148.00, "stop": 124.00, "tp1": 178.00, "tp2": 203.00, "conviction": "Alta", "notes": "AI/defesa"},
+    {"ticker": "IONQ", "name": "IonQ Inc", "currency": "USD", "entry_lo": 38.00, "entry_hi": 46.00, "stop": 31.00, "tp1": 55.00, "tp2": 65.00, "conviction": "Média", "notes": "Quantum — alto risco"},
+    {"ticker": "QBTS", "name": "D-Wave Quantum", "currency": "USD", "entry_lo": 11.00, "entry_hi": 16.00, "stop": 8.50, "tp1": 25.00, "tp2": 38.00, "conviction": "Média", "notes": "Quantum speculativo"}
+  ],
+  "transactions": []
+}
